@@ -1,0 +1,10 @@
+[package]
+name = "word_jumble"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+rand = "0.8.5"
+reqwest = { version = "0.11", features = ["blocking"] }
+serde_json = "1.0.94"
